@@ -3,19 +3,19 @@ A collection of Laravel interview questions with answers
 
 
 
-What is Laravel?
-What is MVC Architecture? 
-What is OOP in PHP, and why should we learn it? 
-What is Composer?
-What is Artisan?
-What are Migrations in Laravel? 
-What is Eloquent ORM?
-What is Blade Templating Engine? 
-What is Middleware in Laravel? 
-How do you handle forms in Laravel? 
-Advantages of Using Laravel?
-What is a Facade in Laravel?
-What are Service Providers?
+What is Laravel?    
+What is MVC Architecture?     
+What is OOP in PHP, and why should we learn it?     
+What is Composer?    
+What is Artisan?    
+What are Migrations in Laravel?     
+What is Eloquent ORM?    
+What is Blade Templating Engine?     
+What is Middleware in Laravel?     
+How do you handle forms in Laravel?     
+Advantages of Using Laravel?    
+What is a Facade in Laravel?    
+What are Service Providers?    
 
 
 1. What is Laravel?
