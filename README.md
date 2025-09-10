@@ -17,11 +17,11 @@ A collection of Laravel interview questions with answers
 # What are Service Providers?    
 
 
-1. What is Laravel?
+# 1. What is Laravel?
 
 Laravel is a PHP web application framework that follows the MVC (Model–View–Controller) architecture. It provides tools and features to build secure, scalable, and maintainable web applications faster.
 
-2. What is MVC Architecture?
+# 2. What is MVC Architecture?
 
 Model → Handles the data and database logic.
 
@@ -31,7 +31,7 @@ Controller → Handles user requests, communicates with the Model, and returns a
 
 This separation makes applications more organized and maintainable.
 
-3. What is OOP in PHP, and why should we learn it?
+# 3. What is OOP in PHP, and why should we learn it?
 
 OOP (Object-Oriented Programming) is a programming style that uses classes and objects to structure code.
 
@@ -44,12 +44,12 @@ Benefits:
 
 Since Laravel is built on OOP principles, understanding OOP is essential.
 
-4. What is Composer?
+# 4. What is Composer?
 
 Composer is a dependency manager for PHP.
 It helps install and manage libraries/packages (like Laravel itself) so you don’t have to manually download and update them.
 
-5. What is Artisan?
+# 5. What is Artisan?
 
 Artisan is Laravel’s command-line interface (CLI).
 It provides commands to speed up development, like:
@@ -60,13 +60,13 @@ php artisan make:model → creates a model
 
 php artisan migrate → runs migrations
 
-6. What are Migrations in Laravel?
+# 6. What are Migrations in Laravel?
 
 Migrations are version control for your database schema.
 Instead of manually creating tables, you write migration files (PHP code) to define database structure.
 Example: add a new column → write migration → run php artisan migrate.
 
-7. What is Eloquent ORM?
+# 7. What is Eloquent ORM?
 
 Eloquent is Laravel’s Object Relational Mapper (ORM).
 It allows you to interact with the database using models and relationships instead of raw SQL.
@@ -78,7 +78,7 @@ echo $user->name;
 
 This fetches a user record without writing SQL.
 
-8. What is Blade Templating Engine?
+# 8. What is Blade Templating Engine?
 
 Blade is Laravel’s templating engine for building views.
 It provides features like:
@@ -89,7 +89,7 @@ Short syntax for echoing data ({{ $name }})
 
 Conditionals & loops (@if, @foreach)
 
-9. What is Middleware in Laravel?
+# 9. What is Middleware in Laravel?
 
 Middleware acts like a filter for HTTP requests.
 Example:
@@ -98,7 +98,7 @@ Authentication Middleware → ensures only logged-in users access certain pages.
 
 CSRF Middleware → protects against cross-site request forgery.
 
-10. How do you handle forms in Laravel?
+# 10. How do you handle forms in Laravel?
 
 Blade syntax for forms:
 
@@ -115,7 +115,7 @@ In Controller, handle input using:
 
 $name = $request->input('name');
 
-11. Advantages of Using Laravel
+# 11. Advantages of Using Laravel
 
 Built-in authentication & authorization
 
@@ -133,7 +133,7 @@ Security features (CSRF, XSS protection)
 
 Large community + ecosystem
 
-12. What is a Facade in Laravel?
+# 12. What is a Facade in Laravel?
 
 Facades provide a static interface to Laravel’s classes and services.
 Example:
@@ -144,7 +144,7 @@ Route::get('/home', ...);
 
 They look like static methods but internally resolve classes from the service container.
 
-13. What are Service Providers?
+# 13. What are Service Providers?
 
 Service Providers are the central place to configure and bootstrap application services.
 They tell Laravel how to load things like routes, events, middleware, or custom services.
